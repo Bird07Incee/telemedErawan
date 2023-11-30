@@ -1,0 +1,9 @@
+{
+  "common_welcome": "ยินดีต้อนรับ",
+  "login_sub_title": "กรอกรหัสผ่านเพื่อเข้าสู่ระบบ BangkokEMS",
+  "login_username": "ชื่อผู้ใช้งาน",
+  "login_password": "รหัสผ่าน ",
+  "login_forgot_password": "ลืมรหัสผ่าน ?",
+  "login_submit": "เข้าสู่ระบบ",
+  "empty": ""
+}
