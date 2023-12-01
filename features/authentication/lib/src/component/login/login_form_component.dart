@@ -3,7 +3,12 @@ import 'package:components/components.dart';
 import 'package:flutter/material.dart';
 
 class LoginFormComponent extends StatelessWidget {
-  const LoginFormComponent({super.key});
+  final VoidCallback? onSubmit;
+
+  const LoginFormComponent({
+    super.key,
+    this.onSubmit,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -126,7 +131,7 @@ class LoginFormComponent extends StatelessWidget {
       children: [
         Expanded(
           child: ButtonComponent(
-            onTap: () {},
+            onTap: onSubmit,
             decoration: BoxDecoration(
               color: AppColors.dodgerBlue,
               borderRadius: BorderRadius.circular(AppSize.radius8),
