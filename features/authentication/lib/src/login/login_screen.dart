@@ -1,5 +1,6 @@
 import 'package:authentication/authentication.dart';
 import 'package:authentication/src/component/login/login_form_component.dart';
+import 'package:components/components.dart';
 import 'package:flutter/material.dart';
 import 'package:commons/commons.dart';
 
@@ -45,7 +46,7 @@ class _LoginScreenState extends State<_LoginScreen> {
 
   Widget _boxForm() {
     final size = MediaQuery.of(context).size;
-    return SingleChildScrollView(
+    return VerticalScroll(
       child: Container(
         width: size.width,
         height: size.height,
