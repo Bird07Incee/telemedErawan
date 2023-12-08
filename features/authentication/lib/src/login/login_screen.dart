@@ -24,17 +24,13 @@ class LoginScreen extends StatelessWidget {
 class _LoginScreen extends StatefulWidget {
   final LoginProvider loginProv;
 
-  const _LoginScreen({
-    super.key,
-    required this.loginProv,
-  });
+  const _LoginScreen({required this.loginProv});
 
   @override
   State<_LoginScreen> createState() => _LoginScreenState();
 }
 
 class _LoginScreenState extends State<_LoginScreen> {
-
   @override
   Widget build(BuildContext context) {
     return _build();
