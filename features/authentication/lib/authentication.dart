@@ -5,4 +5,4 @@ export './src/login/login_screen.dart';
 
 
 /// Provider
-export './src/provider/login_provider.dart';
+export './src/view_model/login_view_model.dart';

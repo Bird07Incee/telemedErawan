@@ -1,10 +1,10 @@
 import 'package:commons/commons.dart';
 import 'package:flutter/material.dart';
 
-class BaseProvider extends ChangeNotifier {
+class BaseViewModel extends ChangeNotifier {
   final BuildContext context;
 
-  BaseProvider({required this.context});
+  BaseViewModel({required this.context});
 
   Future<P?> push<P extends Object?>(
     String route, {

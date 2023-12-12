@@ -1,6 +1,6 @@
 import 'package:commons/commons.dart';
 
-class LoginProvider extends BaseProvider {
+class LoginProvider extends BaseViewModel {
   LoginProvider({required super.context});
 
 
